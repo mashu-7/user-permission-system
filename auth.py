@@ -1,6 +1,6 @@
 # 认证模块
 import hashlib
-from database import fetch_one, execute_query
+from database import fetch_one, fetch_all, execute_query
 from config import MAX_LOGIN_ATTEMPTS
 
 def hash_password(password):
